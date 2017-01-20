@@ -21,3 +21,7 @@ main.cpp
   *Not implemented follow redirects and other advanced options. 
 
   *SSL not implemented, yet...
+  
+  #Usefull 
+
+Based on Winsock2. Obviously, it works under Windows, only!
