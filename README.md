@@ -22,6 +22,6 @@ main.cpp
 
   *SSL not implemented, yet...
   
-  #Usefull 
+# Usefull 
 
 Based on Winsock2. Obviously, it works under Windows, only!
