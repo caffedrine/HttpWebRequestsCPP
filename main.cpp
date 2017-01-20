@@ -11,7 +11,7 @@ int main()
 
     req.proxy.enable = true;
     req.proxy.proxy_type = PROXY_SOCKS5;
-    req.proxy.ipOrHostname = "176.31.96.198";
+    req.proxy.ipOrHostname = "xx.xx.xx.xx";
     req.proxy.port = 3128;
 
     req.headers.httpMethod =  GET;
