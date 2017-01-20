@@ -14,10 +14,10 @@ main.cpp
 
   *SOCKS5, SOCKS5 and HTTP proxy support implemented;
 
-  *Cookie container like the one from .NET
+  *Implemented Cookie container like the one from .NET
 
   *Easy to use
 
-  *Not implemented follow redirects and other advanced optins. 
+  *Not implemented follow redirects and other advanced options. 
 
   *SSL not implemented, yet...
