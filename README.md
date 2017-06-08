@@ -4,13 +4,13 @@ A very simple and easy to use C++ Wrapper based on Winsock2.
 
 Usefull when interacting with web pages.
 
-Easily to integrate as it is header only!
+Easily to integrate as it does not require external dependencies!
 
 # Example:
 
 main.cpp or the following sample:
 
-```
+```cpp
 #include "HttpWebRequests.hpp"
 #include <iostream>
 #include <cstdio>
@@ -54,6 +54,10 @@ int main()
   * Not implemented follow redirects and other advanced options. 
   * SSL not implemented, yet...
   
+# To make your life easier:
+Don't forget to add the following flags to your compiler: *-std=c++11 -static-libgcc -static-libstdc++*
+And link the following libs: *gdi32.lib ws2_32.lib*
+ 
 # Usefull 
 
 Based on Winsock2. Obviously, it works under Windows, only!
