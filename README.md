@@ -55,8 +55,8 @@ int main()
   * SSL not implemented, yet...
   
 # To make your life easier:
-Don't forget to add the following flags to your compiler: *-std=c++11 -static-libgcc -static-libstdc++*
-And link the following libs: *gdi32.lib ws2_32.lib*
+Don't forget to add the following flags to your compiler: **-std=c++11 -static-libgcc -static-libstdc++**
+And link the following libs: **gdi32.lib ws2_32.lib**
  
 # Usefull 
 
