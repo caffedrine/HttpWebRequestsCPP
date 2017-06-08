@@ -9,7 +9,7 @@ int main()
     HttpWebRequest req;
     req.setUrl("checkip.dyndns.com");
 
-    req.proxy.enable = true;
+    req.proxy.enable = false;
     req.proxy.proxy_type = PROXY_SOCKS5;
     req.proxy.ipOrHostname = "xx.xx.xx.xx";
     req.proxy.port = 3128;
@@ -36,4 +36,3 @@ int main()
     }
     return 0;
 }
-
