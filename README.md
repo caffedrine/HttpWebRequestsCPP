@@ -23,7 +23,7 @@ int main()
     req.setUrl("checkip.dyndns.com");
 
     req.headers.httpMethod =  GET;
-    req.headers.keepCookies = true;s
+    req.headers.keepCookies = true;
     req.headers.cookieContainer = "";
     req.headers.userAgent = "Easy HttpWebRequests 0.1/ www.howtofix.pro";
     req.headers.connection = "close";
